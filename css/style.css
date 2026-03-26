@@ -1,3 +1,13 @@
+        :root{
+            --blanco: #FFFFFF;
+            --negro: #212121;
+            --primario: #ffc107;
+            --secundario: #0097a7;
+            --terciario: #757575;
+
+            --fuente_principal: 3.8rem;
+        }
+
         html{
            font-size: 62.5%;
         }
@@ -8,7 +18,7 @@
  
          .titulo{
             text-align: center;
-            font-size: 3.8rem;    
+            color: var(--primario);
          }
 
        .titulo span{
