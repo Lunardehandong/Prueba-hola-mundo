@@ -19,7 +19,7 @@
  
          .titulo{
             text-align: center;
-            color: var(--primario);
+            
 
          }
 
@@ -34,31 +34,9 @@
 
         .nav-background{
             background-color: var(--secundario);
-        }        :root{
-            --blanco: #FFFFFF;
-            --negro: #212121;
-            --primario: #ffc107;
-            --secundario: #0097a7;
-            --terciario: #757575;
-
-            --fuente_principal: 3.8rem;
         }
 
-        html{
-           font-size: 62.5%;
-        }
-
-        body{
-            font-size: 16px;
-            font-family: "Karla", sans-serif;
-        }
- 
-         .titulo{
-            text-align: center;
-            color: var(--primario);
-
-         }
-
-       .titulo span{
-            font-size: 2rem;
+        .navegacion-principal a{
+            background-color: var(--primario);
+            display: inline;
         }
