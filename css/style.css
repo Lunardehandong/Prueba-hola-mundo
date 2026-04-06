@@ -9,6 +9,11 @@
         }
         html{
            font-size: 62.5%;
+           box-sizing: border-box;
+        }
+
+        *,*:before,*::after{
+            box-sizing: inherit;
         }
         body{
             font-size: 16px;
@@ -55,3 +60,11 @@
             flex-direction: row;
             }
         }
+
+       .hero{
+        background-image: url(../hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        padding: 2%;
+       } 
