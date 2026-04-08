@@ -6,6 +6,7 @@
             --primario: #ffc107;
             --secundario: #0097a7;
             --terciario: #757575;
+            --cuardiciario: #dfe9f3;
 
             --fuente_principal: 3.8rem;
         }
@@ -22,6 +23,7 @@
         body{
             font-size: 16px;
             font-family: "Karla", sans-serif;
+            background-image: linear-gradient(to top, var(--cuardiciario) 0% var(--blanco) 100%);
         }
 
          .contenedor{
