@@ -149,9 +149,10 @@
         /*gap: .5rem;*/
        }
 
-       .servicios{
-        @media (min-width: 768px) {
-            display: grid;
-        display: grid-template-columns repeat(auto-fit, minmax(300px, 1fr));
-        }
-       }
+      @media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
